@@ -3,7 +3,6 @@ import useSound from 'use-sound';
 import {AiOutlinePlayCircle, AiOutlinePauseCircle} from "react-icons/ai";
 import {BiSkipPrevious, BiSkipNext} from "react-icons/bi";
 import { IconContext } from 'react-icons';  // this is used for styling the icons we took from react-icons
-// NEED TO IMPORT THE AUDIO FILE OBJECT HERE
 
 export default function Player() {
     const [isPlaying, setIsPlaying] = useState(false);  // this is the current status of the player
