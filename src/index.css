@@ -5,9 +5,58 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fcfdfb;
+  color: #fcfdfb;
+  text-align: center;
+}
+
+.component{
+  background-color: #5b2c1a;
+  width: 25%;
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem #5b2c1a;
+  border: 3px solid black;
+  color: #fcfdfb;
+}
+
+.musicCover{
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem black;
+  border: 2px solid black;
+}
+
+.timeline{
+  width: 80%;
+}
+
+.subTitle{
+  margin-top: -1rem;
+}
+
+.time{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width: 900px) {
+  .component{
+    width: 50%;
+  }
+}
+
+@media (max-width: 450px) {
+  .component{
+    width: 75%;
+  }
 }
